@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game </title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+<div class="instruction">To Pause the Game Press Space-Bar Button</div>
+    <new class="box" id="box">
+    </new>
+
+
+    <div class="start_page">
+        <div class="rules">
+            <li style="display:grid; justify-content: center;">
+                <h1>RULES</h1>
+            </li>
+            <li><b>1. </b>To Burst a bubble, type the letter shown in it.</li>
+            <li><b>2. </b>After missing six bubbles, the Game is over.</li>
+            <li><b>3. </b>Red and Green bubbles are faster than the white <br> and will give a better score.</li>
+        </div>
+        <button id="start">START</button>
+    </div>
+
+    <div class="result">
+        <h1>Score: <a id="score"></a></h1>
+        <button id="start_again">PLAY AGAIN</button>
+
+    </div>
+    <div class="miss" id="miss_color">
+    </div>
+
+    <script src="game.js">
+    </script>
+
+
+</body>
+
+</html>
