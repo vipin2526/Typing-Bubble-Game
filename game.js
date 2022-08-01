@@ -1,4 +1,4 @@
-/// starting page  ///
+                            /// starting page  ///
 var startbutton = document.querySelector('#start');
 var bs=new Audio("button_sound.mp3");
 startbutton.onclick = function () {
@@ -7,6 +7,8 @@ startbutton.onclick = function () {
     startpage.style = "display:none";
     start_interval();
 };
+
+                           //again starting//
 var again =document.querySelector('#start_again');
 again.onclick= function (){
     console.log("Game Started");
@@ -39,6 +41,7 @@ function rendint() {
 
 ///       append    ////
 var alive_char = '';
+var red_green_index=1;
 function create() {
     newballchar = rendchar();
     alive_char += newballchar;
@@ -47,6 +50,29 @@ function create() {
     parant.appendChild(newball);
     newball.className = "ball";
     newball.innerText = newballchar;
+    
+    {
+        if(red_green_index==12)
+        {
+            newball.style.animation="godown 5s linear infinite";
+            newball.style.backgroundColor="red";
+            red_green_index=1;
+            create();
+
+        }
+        else if (red_green_index==6) 
+        {
+            newball.style.animation="godown 7s linear infinite";
+            newball.style.backgroundColor="green";
+            red_green_index++;
+            create();
+        } 
+        else 
+        {
+            red_green_index++;
+        }
+    }
+
     newball.style.right = rendint() + "px";
     missball(newball);
 }
@@ -127,7 +153,7 @@ var miss_index_color=document.querySelector('#miss_color');
 var len=0;
 function miss_color_change(i){
     len=i*17;
-    miss_index_color.style.background=`linear-gradient( to right,red ${len}% ,azure 0%)`;
+    miss_index_color.style.background=`linear-gradient( to right,red ${len}% ,#28ff28 0%)`;
 }
 
 
