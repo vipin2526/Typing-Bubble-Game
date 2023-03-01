@@ -1,5 +1,7 @@
 # Typing-Bubble-Game
 
+### https://xmartcoder.github.io/Typing-Bubble-Game/
+
 This is a simple typing game where players type the letters on bubbles before they disappear. The game is built using HTML, CSS, and JavaScript. 
 
 ![Typing Bubble Game Screenshot](https://github.com/xmartcoder/Typing-Bubble-Game/blob/main/game.png)
