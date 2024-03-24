@@ -1,14 +1,14 @@
 # Typing-Bubble-Game
 
-### https://xmartcoder.github.io/Typing-Bubble-Game/
+### https://vipin2526.github.io/Typing-Bubble-Game/
 
 This is a simple typing game where players type the letters on bubbles before they disappear. The game is built using HTML, CSS, and JavaScript. 
 
-![Typing Bubble Game Screenshot](https://github.com/xmartcoder/Typing-Bubble-Game/blob/main/game.png)
+![Typing Bubble Game Screenshot](https://github.com/vipin2526/Typing-Bubble-Game/blob/main/game.png)
 
 ### How to Play
 
-1. Open the game by clicking on the [Typing Bubble Game](https://xmartcoder.github.io/Typing-Bubble-Game/).
+1. Open the game by clicking on the [Typing Bubble Game](https://vipin2526.github.io/Typing-Bubble-Game/).
 2. Click on the "Start" button to start the game.
 3. Type the letters on the bubbles before they disappear.
 4. The game ends when you miss 5 Bubbles.
@@ -35,5 +35,5 @@ This is a simple typing game where players type the letters on bubbles before th
 
 ### Credits
 
-This project was created by [Vipin Kushwaha](https://github.com/xmartcoder). Feel free to use and modify the game to suit your needs.
+This project was created by [Vipin Kushwaha](https://github.com/vipin2526). Feel free to use and modify the game to suit your needs.
 
